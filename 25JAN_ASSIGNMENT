@@ -1,0 +1,20 @@
+NOTE : TO SUBMIT YOUR RESPONSE THE GOOGLE FORM LINK IS HERE!!!!
+GOOGLE FORM LINK::  https://forms.gle/um9AWULpy9rjBdNv5
+SUBMIT IT BY:     26 JAN  3PM
+NAME YOUR REPOSITORY AS THE GIVEN FORMAT
+
+
+
+
+
+
+ASSIGNMENT
+25 JAN 2023
+
+1.	Write a program that prompts the user to enter a character and then converts it to an integer using the dynamic_cast operator. The program should then display the original character and the converted integer to the user.
+
+2.	Write a program that prompts the user to enter a pointer to an object of a certain class and then converts it to a pointer to an object of a different class using the const_cast operator. The program should then display the original pointer and the converted pointer to the user.
+
+3.	Write a program that prompts the user to enter a floating point number and then converts it to an integer by using a type cast.
+
+4.	Write a c++ program that takes a double input from the user and then converts it to an integer using a type cast, rounding down to the nearest integer if necessary.
