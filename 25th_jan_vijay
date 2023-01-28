@@ -1,0 +1,82 @@
+1)
+#include<iostream>
+#include<typeinfo>
+
+using namespace std;
+
+int main()
+{
+    char character;
+    int number;
+    cout << "Please enter a character: ";
+    cin >> character;
+    number = dynamic_cast<int>(character);
+    cout << "The original character is \"" << character << "\" and the converted integer is " << number << ".\n";
+
+    return 0;
+};
+
+2)
+#include <iostream>
+using namespace std;
+
+class A {
+public:
+    int a;
+};
+
+class B {
+public:
+    int b;
+};
+
+int main()
+{
+    A* a_ptr; 
+    B* b_ptr; 
+
+    cout << "Enter the address of the object of Class A: ";
+    cin >> a_ptr;
+
+    b_ptr = const_cast<B*>(a_ptr);
+
+    cout << "\nOriginal pointer =  " << a_ptr;
+    cout << "\nConverted pointer = " << b_ptr;
+
+    return 0;
+}
+
+3)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float num;
+
+    cout << "Please enter a floating point number: ";
+    cin >> num;
+
+    int result = (int) num;
+
+    cout << "The converted integer is " << result << endl;
+
+    return 0;
+};
+
+4)
+#include <iostream>
+int main() {
+    double input;
+    std::cout << "Please enter a double: ";
+    std::cin >> input;
+
+    // Convert to an integer
+    int output = (int) input;
+
+    std::cout << "Your entered double is: " << input << std::endl;
+    std::cout << "The converted integer is: " << output << std::endl;
+    return 0;
+}
+
